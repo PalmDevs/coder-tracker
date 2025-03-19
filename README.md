@@ -33,6 +33,13 @@ This is a CLI tool that allows you to create goals and finish them to gain XP an
 2. Run `bun install https://github.com/PalmDevs/coder-tracker --global`
 3. Enjoy _(reduced productivity by)_ using `coder-tracker` in your terminal!
 
+### Local installation
+
+1. Clone this repository
+2. Run `bun install` in the root directory
+3. Run `bun link` to link the CLI to your system
+4. Enjoy _(reduced productivity by)_ using `coder-tracker` in your terminal!
+
 ## 📚 Usage
 
 Sessions are the main focus of this tool, but before you create a session, you need to create some goals. Whether that'd be finishing a feature or squashing a bug, you can create a goal for it.
