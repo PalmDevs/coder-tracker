@@ -13,15 +13,17 @@ This is a CLI tool that allows you to create goals and finish them to gain XP an
 ## ✨ Features
 
 - ⌛ Create a timer for your session
-- ✅ Set your goals, and optionally amount of time to finish them
-- 📃 Set amount of goals, or pick specific goals to finish
-- 🔔 Get reminded when you're running out of time, or when you are procrastinating
+- ✅ Set your goals
+- 📃 Pick specific goals to finish
+<!-- - 🔔 Get reminded when you're running out of time, or when you are procrastinating -->
 - 📊 Get statistics of your performance
   - Amount of saves
   - Edited files
-  - Amount of lines edited
-  - Amount of time taken for each goal
+  <!-- - Amount of lines edited -->
 - 📈 Browse saved statistics for previous sessions and compare your performance
+
+### Coming soon
+
 - 💸 Gain `C$` (Codebux) to unlock upgrades and personalize your CLI
 - 🌟 Prestige yourself to gain access to better upgrades and cosmetics
 
