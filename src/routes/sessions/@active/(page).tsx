@@ -1,4 +1,4 @@
-import { readFileSync } from 'fs'
+import { existsSync, readFileSync } from 'fs'
 import { MultiSelect, ProgressBar } from '@inkjs/ui'
 import watcher from '@parcel/watcher'
 import { DurationFormatter } from '@sapphire/duration'
@@ -75,7 +75,9 @@ export default function ActiveSession() {
 
         const gitignoreFiles =
             (ProjConfig.track?.followGitIgnore ?? DefaultProjectConfig.track.followGitIgnore)
-                ? parseGitignore(readFileSync('.gitignore'))
+                ? existsSync('.gitignore')
+                    ? parseGitignore(readFileSync('.gitignore'))
+                    : []
                 : []
 
         watcher
