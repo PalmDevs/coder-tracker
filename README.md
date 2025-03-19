@@ -35,4 +35,8 @@ This is a CLI tool that allows you to create goals and finish them to gain XP an
 
 ## 📚 Usage
 
-Usage instructions are listed in the **How to use?** menu in the CLI.
+Sessions are the main focus of this tool, but before you create a session, you need to create some goals. Whether that'd be finishing a feature or squashing a bug, you can create a goal for it.
+
+After creating a goal, you can start a session and pick the goals you want to finish. You will also need to set a timer for your session.
+
+When you're done with your session, you can finish it and see your statistics via the History page, or (coming soon) the summary page.
